@@ -283,6 +283,8 @@ body{
     color: #4a4a4a;
 }
 .please{
+    font-size: 12px;
+    text-align: center;
     font-size: 19px;
     margin-top: 0px;
     margin-left: 0px;
@@ -324,3 +326,73 @@ img.hina_hikawa_bg {
     height: 177px;
 
 }
+/*------------------------------------login------------------------------------*/
+
+  
+  .login_form_top {
+    width: 325px;
+    padding: 40px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #000;
+    text-align: center;
+  }
+  
+  .pass1 {
+    color: white;
+    font-weight: 420;
+  }
+  
+  .p {
+    font-size: 10px;
+  }
+  
+  .password {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ff69b4;
+    padding: 15px 10px;
+    width: 180px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    text-align: center;
+  }
+  
+  .password {
+    width: 180px;
+    background-color: #f0f8ff;
+  }
+  
+  .login[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #f0f8ff;
+    padding: 15px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .login[type = "submit"]:hover {
+    background-color: #ff69b4;
+    border: 2px solid #ff69b4;
+  }
+  .span1{
+    color: #f62156;
+  }
+  .title1{
+    color: #c6fff8;
+    font-size: 25px;
+  }
+  /*------------------------------------login------------------------------------*/
