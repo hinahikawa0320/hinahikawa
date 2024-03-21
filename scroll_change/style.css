@@ -409,7 +409,7 @@
     .TV-anime{
         position: relative;
         font-size: 2vw;
-        color: rgb(234, 158, 255);
+        
         font-family: "Zen Maru Gothic", serif;
         font-weight: 700;
         font-style: normal;
@@ -524,9 +524,67 @@
         text-decoration: none; 
         color:rgb(234, 158, 255); ;
     }
-    
-    
 
+    .movie-anime{
+        position: relative;
+        font-size: 2vw;
+        
+        font-family: "Zen Maru Gothic", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .contents-5{
+        position: relative;
+        margin-top: 9vw;
+        display: flex;
+        margin-bottom: 10vw;
+    }
+    
+    .frame-5 {
+        position: absolute;
+        width: 30.2vw;
+        height: 17.2vw;
+        left: 3.5%;
+        top: -6%;
+        z-index: 5;
+    }
+    .contents-5 p{
+        margin-left: 5vw;
+
+    }
+    .contents-5 a{
+        cursor: pointer;
+        text-decoration: none; 
+        color:rgb(234, 158, 255); ;
+    }
+    .game{
+        position: relative;
+        font-size: 2vw;
+        
+        font-family: "Zen Maru Gothic", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .store{
+        position: relative;
+
+    }
+    .store-url{
+        display: flex;  
+    }
+    .store-a{
+        margin-left: 14vw;
+    }
+    .store-url img{
+        margin-left: 14%;
+        width: 20vw;
+        margin-top: -8%;
+    }
+    .google{
+        margin-left: 16.4vw;
+    }
 
 
 
